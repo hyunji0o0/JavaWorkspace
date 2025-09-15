@@ -44,6 +44,8 @@ public class Main {
         String y = new String("AAA"); //y="AAA", y= new String("AAA")
         System.out.println("x: " + x);
         System.out.println("y: " + y);
+        System.out.println("Tome: " + Tom);
+        System.out.println("Tome: " + Tom);
 
 
     }
