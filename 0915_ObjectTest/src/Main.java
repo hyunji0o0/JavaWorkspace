@@ -1,3 +1,17 @@
+/*
+class classX extends Object{
+
+}
+ */
+class classX{
+    classX(){
+        //super(); //automatically called by javac
+    }
+    public void foo(){
+        Object myO = new Object();
+        System.out.println("Hello myO!");
+    }
+}
 class DefaultA {
 
 }
@@ -25,6 +39,9 @@ class Circle {
     void setRadius(double r){
         radius = r;
     }
+    public String toString() {
+        return super.toString() + "radius" + radius;
+    }
 }
 
 public class Main {
@@ -45,7 +62,9 @@ public class Main {
         System.out.println("x: " + x);
         System.out.println("y: " + y);
         System.out.println("Tome: " + Tom);
-        System.out.println("Tome: " + Tom);
+        System.out.println("Area is: " + new Circle(10).getArea());
+        System.out.println("Circle: " + SimpleCircle.toString());
+        System.out.println("Circle: " + SimpleCircle);
 
 
     }

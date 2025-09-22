@@ -3,8 +3,11 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/0915_ObjectTest/0915_ObjectTest.iml" filepath="$PROJECT_DIR$/0915_ObjectTest/0915_ObjectTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/0922_objectTest2/0922_objectTest2.iml" filepath="$PROJECT_DIR$/0922_objectTest2/0922_objectTest2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/0922_objectTest3/0922_objectTest3.iml" filepath="$PROJECT_DIR$/0922_objectTest3/0922_objectTest3.iml" />
       <module fileurl="file://$PROJECT_DIR$/09_08/09_08.iml" filepath="$PROJECT_DIR$/09_08/09_08.iml" />
       <module fileurl="file://$PROJECT_DIR$/09_10/09_10.iml" filepath="$PROJECT_DIR$/09_10/09_10.iml" />
+      <module fileurl="file://$PROJECT_DIR$/09_17/09_17.iml" filepath="$PROJECT_DIR$/09_17/09_17.iml" />
       <module fileurl="file://$PROJECT_DIR$/HelloJava/HelloJava.iml" filepath="$PROJECT_DIR$/HelloJava/HelloJava.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/platform.iml" filepath="$PROJECT_DIR$/.idea/platform.iml" />
     </modules>
