@@ -1,3 +1,5 @@
+import java.math.BigInteger;
+
 class Student {
     private Course[] courseList;
     public void addCourse(Course s) {}
@@ -20,18 +22,33 @@ class Course {
 
     }
 }
+class Name { //aggregated class
+
+}
+class Address {
+    Stud[] studList;
+}
+class Stud { //aggregating class
+    Name name;
+    Address addres;
+}
+
+class Person {
+    Person[] supervisor;
+}
+
 //student -> course -> faculty, faculty has a Course, Course has a Student, Student has a course
 //aggregate, ownership : 집합 관게 공부하기
 public class Main {
     public static void main(String[] args) {
-        //TIP 캐럿을 강조 표시된 텍스트에 놓고 <shortcut actionId="ShowIntentionActions"/>을(를) 누르면
-        // IntelliJ IDEA이(가) 수정을 제안하는 것을 확인할 수 있습니다.
-        System.out.printf("Hello and welcome!");
+        System.out.println(Integer.parseInt("11", 2)); //parseInt type -> static
+        Double doubleObjects = Double.valueOf("12.4"); //value of -> static method
+        System.out.println(doubleObjects);
+        //Integer intObject = new Integer(2);
+        Integer intObject = 2; //Integer type -> class, 2 type -> integer, type mismatch ok, why? -> automatically convert
+        //int a = 2354564897851;
+        BigInteger a = new BigInteger("1231456486555665");
+        System.out.println(a);
 
-        for (int i = 1; i <= 5; i++) {
-            //TIP <shortcut actionId="Debug"/>을(를) 눌러 코드 디버그를 시작하세요. 1개의 <icon src="AllIcons.Debugger.Db_set_breakpoint"/> 중단점을 설정해 드렸습니다
-            // 언제든 <shortcut actionId="ToggleLineBreakpoint"/>을(를) 눌러 중단점을 더 추가할 수 있습니다.
-            System.out.println("i = " + i);
-        }
     }
 }
