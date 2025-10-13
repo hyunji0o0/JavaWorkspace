@@ -50,5 +50,20 @@ public class Main {
         BigInteger a = new BigInteger("1231456486555665");
         System.out.println(a);
 
+        String[] tokens = "java#HTML#Perl".split("#");
+        for (int i =0; i < tokens.length; i++){
+            System.out.println(tokens[i] + " ");
+        }
+        System.out.println("440-02-4534".matches("\\d{3}-\\d{2}-\\d{4}"));
+        String s = "a+b$#c".replaceAll("[$+#]", "NNN"); //regex = regular expression
+        System.out.println(s);
+        //String : Immutable Object
+        //Mutable string : StringBuilder StringBuffer
+        StringBuilder strBuilder = new StringBuilder();
+        strBuilder.append("Welcome");
+        strBuilder.append("Hi");
+        System.out.println(strBuilder);
+        //composition -> strongest form of associate, modifier, public, default, protected(inheritance), private
+        //<isa> polymorphism <- dynamic binding, overriding / <hasA> association, aggregation, composition
     }
 }
