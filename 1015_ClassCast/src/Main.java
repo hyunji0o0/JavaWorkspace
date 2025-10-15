@@ -100,3 +100,9 @@ public class Main {
         System.out.println(pRefToChild);
     }
 }
+//display(new child()) display(new parent()) display(new Gparent())
+// display(new animal()) -> display(Gparent Gp){ isA } , 근데 Gparent Gp -> Object o 가 됨
+// Gparent Gp = new Animal()
+// Object o = new animal() (ok)
+// if(o instance of Animal) o.foo (no, 불가능), (Animal)o.foo (no)) -> Animal, .(dot) : operator -> we can run more than one operators at a time -> precedence prioriry
+//
